@@ -8,10 +8,10 @@ function Commande(){
      
  return (
  <>
- <div className="space-y-14  dark:bg-gray-700">
- <div ><Sidebar />
+ <div className="space-y-14  ">
+ <Sidebar />
  
- </div> 
+  
 
      </div>
  </>)}

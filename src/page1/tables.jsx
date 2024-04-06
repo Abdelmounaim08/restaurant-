@@ -60,10 +60,10 @@ function Table() {
      }
      return <>
      
-<div className="space-y-4 md:space-y-2   dark:bg-gray-700">
-          <div>
+<div className="space-y-4 md:space-y-2  h-full dark:bg-gray-700">
+          <div className=" dark:bg-gray-700">
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded  dark:bg-gray-700 ">
-          <div className="container flex flex-wrap items-center justify-between mx-auto">
+          <div className="container flex flex-wrap items-center  dark:bg-gray-700 justify-between mx-auto">
             <a href="https://www.facebook.com/mounaim.mis/" className="flex items-center">
               <img src={logo} className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">restaurant</span>
@@ -119,7 +119,7 @@ function Table() {
           </div>
         </nav>
       </div>
-               <div className="container  justify-between  pr-6 pl-6 mx-auto sm:grid gap-2 grid-cols-6 grid-flow-row-4 scroll-ml-6 snap-start flex flex-col md:flex-row  ">
+               <div className="container  dark:bg-gray-700  justify-between pt-2 space-y-4  pr-6 pl-6 mx-auto sm:grid gap-2 grid-cols-6 grid-flow-row-4 scroll-ml-6 snap-start flex flex-col md:flex-row  ">
 
                     {table.filter((value) => {
                          if (searchTitle === "") {

@@ -1,6 +1,0 @@
-export function Tb(){
-    
-    return<>
- 
-    </>
-}
